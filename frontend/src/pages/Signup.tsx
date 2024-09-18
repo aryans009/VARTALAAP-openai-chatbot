@@ -35,17 +35,11 @@ const Signup = () => {
   return (
     <Box width={"100%"} height={"100%"}
       className="flex flex-1" >
-      {/* <Box sx={{ padding: 8, mt: 8, display: { md: "flex", sm: "none", xs: "none" } }}
-         >
-        <img src="/src/assets/robot.png"
-          alt="Robot"
-          style={{ width: "400px" }}
-          className='reflect' />
-      </Box> */}
       <Box className="flex 
       justify-items-center
       items-center p-16
       m-auto  mt-16
+      sm:p-45
       
       ">
         <form

@@ -8,7 +8,8 @@ import { AuthProvider } from './context/AuthContext.tsx'
 import axios from 'axios'
 import { Toaster } from 'react-hot-toast'
 
-axios.defaults.baseURL = "http://localhost:5005/api/v1";
+//axios.defaults.baseURL = "http://localhost:5005/api/v1";
+axios.defaults.baseURL = "https://vartalaap-openai-chatbot.onrender.com/";
 axios.defaults.withCredentials = true;
 
 const theme = createTheme({

@@ -10,13 +10,14 @@ const app = express();
 //middlewares
 app.use(cors({
     origin: 'http://localhost:5173', // Replace with your frontend URL
+    methods: ['POST', 'GET'],
     credentials: true
 }));
 app.use(express.json());
 app.use(cookieParser(process.env.COOKIE_SECRET));
 
 //remove it in production
-app.use(morgan("dev"));
+// app.use(morgan("dev"));
 
 app.use("/api/v1",appRoutes);
 

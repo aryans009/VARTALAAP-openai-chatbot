@@ -27,7 +27,7 @@ const Home = () => {
       </Box>
       <Box sx={{ paddingTop: "30px", display: "flex", mx: "auto" }}>
         <img
-          src="src/assets/code.png"
+          src="/code.png"
           alt="chatbot"
           style={{
             display: "flex",

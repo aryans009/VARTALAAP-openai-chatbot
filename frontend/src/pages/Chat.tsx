@@ -63,10 +63,8 @@ const Chat = () => {
           <Typography
             className='my-8 p-8'
             sx={{ fontFamily: "work sans", mx: "auto", overflow: "scroll" }}>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium est
-            dignissimos tempora temporibus repudiandae quidem obcaecati maiores modi minus
-            voluptatum, possimus autem explicabo cupiditate inventore dolorum eum tenetur?
-            Placeat, pariatur.
+            Hey User! 
+            I am VARTALAAP developed by Aryan Singh. Here, you can clear your any kind of doubts regarding your programs or problems.
           </Typography>
           <Button className='w-[50%]
           p-2
