@@ -9,7 +9,7 @@ import axios from 'axios'
 import { Toaster } from 'react-hot-toast'
 
 //axios.defaults.baseURL = "http://localhost:5005/api/v1";
-axios.defaults.baseURL = "https://vartalaap-openai-chatbot.onrender.com/";
+axios.defaults.baseURL = "vartalaap-openai-backend-19eexaiwa.vercel.app";
 axios.defaults.withCredentials = true;
 
 const theme = createTheme({
