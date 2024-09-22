@@ -12,6 +12,13 @@ app.use(cors({
     methods: ['POST', 'GET'],
     credentials: true
 }));
+
+app.use((req, res, next) => {
+    console.log('Request URL:', req.originalUrl); // Logs the URL of every request
+    next();
+  });
+
+  
 app.use(express.json());
 app.use(cookieParser(process.env.COOKIE_SECRET));
 
